@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2016",
+    "module": "commonjs",
+    "sourceMap": false,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["src"]
+}

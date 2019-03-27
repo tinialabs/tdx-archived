@@ -1,0 +1,41 @@
+{
+  "name": "fuse-box-plugin-tdx",
+  "version": "0.3.0",
+  "repository": "https://github.com/tinialabs/tdx/tree/master/packages/fuse-box-plugin-tdx",
+  "keywords": [
+    "mdx",
+    "mdx-js",
+    "tdx",
+    "config",
+    "api"
+  ],
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "ts:main": "src/index.ts",
+  "types": "./dist/index.d.ts",
+  "authors": [
+    "Tinia Labs <admin@tinialabs.org>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "prebuild": "berun-dev clean",
+    "build": "berun-dev build",
+    "coverage": "berun-dev test --coverage",
+    "prepublishOnly": "yarn build",
+    "test": "berun-dev test",
+    "test:watch": "berun-dev test -o --watch",
+    "lint": "berun-dev lint"
+  },
+  "dependencies": {
+    "@tinia/tdx": "^0.3.0"
+  },
+  "devDependencies": {
+    "@berun/dev-scripts": "^2.0.18",
+    "fuse-box": "3.7.1"
+  }
+}
