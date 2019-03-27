@@ -18,6 +18,10 @@
   "repository": "https://github.com/tinialabs/tdx/tree/master/packages/tdx-loader",
   "bugs": "https://github.com/tinialabs/tdx/issues",
   "author": "Tinia Labs",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "files": [
     "index.js"
   ],
@@ -31,5 +35,6 @@
   },
   "jest": {
     "testEnvironment": "node"
-  }
+  },
+  "gitHead": "be897c457245cfc27fe0a74d7174a9e5cf6922e7"
 }

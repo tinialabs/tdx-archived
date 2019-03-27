@@ -37,5 +37,6 @@
   "devDependencies": {
     "@berun/dev-scripts": "^2.0.18",
     "fuse-box": "3.7.1"
-  }
+  },
+  "gitHead": "be897c457245cfc27fe0a74d7174a9e5cf6922e7"
 }
