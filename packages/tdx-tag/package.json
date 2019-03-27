@@ -2,7 +2,7 @@
   "name": "@tinia/tdx-tag",
   "repository": "https://github.com/tinialabs/tdx/tree/master/packages/tdx-tag",
   "description": "Embedded markdown tag for generated TDX files",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "keywords": [
     "markdown",
     "react",
