@@ -27,6 +27,7 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
+  "author": "Tinia Labs",
   "typings": "dist/index.d.ts",
   "scripts": {
     "prebuild": "berun-dev clean",
