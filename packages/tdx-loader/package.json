@@ -1,6 +1,6 @@
 {
   "name": "@tinia/tdx-loader",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Webpack loader for Markdown, MDX, and TDX files",
   "license": "MIT",
   "keywords": [
@@ -22,11 +22,9 @@
     "index.js"
   ],
   "dependencies": {
-    "@tinia/tdx": "0.3.0",
-    "@tinia/tdx-tag": "0.3.0",
+    "@tinia/tdx": "^0.3.1",
+    "@tinia/tdx-tag": "^0.3.1",
     "loader-utils": "^1.2.3"
-  },
-  "devDependencies": {
   },
   "scripts": {
     "test": "jest"
