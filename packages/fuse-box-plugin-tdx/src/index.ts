@@ -1,20 +1,20 @@
 import { WorkFlowContext, File, Plugin } from 'fuse-box'
 const tdx = require('@tinia/tdx')
 
-export interface MDXPluginOptions {
+export interface TDXPluginOptions {
   mdPlugins?: any[]
   hastPlugins?: any[]
 }
 
-export class FuseBoxMDXPlugin implements Plugin {
+export class FuseBoxTDXPlugin implements Plugin {
   public test: RegExp = /\.(md|mdx)$/
 
-  public options: MDXPluginOptions = {
+  public options: TDXPluginOptions = {
     mdPlugins: [],
     hastPlugins: []
   }
 
-  constructor(opts: MDXPluginOptions = {}) {
+  constructor(opts: TDXPluginOptions = {}) {
     this.options = Object.assign(this.options, opts)
   }
 
@@ -47,6 +47,6 @@ export class FuseBoxMDXPlugin implements Plugin {
   }
 }
 
-export const MDXPlugin = (options?: MDXPluginOptions) => {
-  return new FuseBoxMDXPlugin(options)
+export const TDXPlugin = (options?: TDXPluginOptions) => {
+  return new FuseBoxTDXPlugin(options)
 }
