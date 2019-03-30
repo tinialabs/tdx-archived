@@ -1,6 +1,6 @@
 {
   "name": "fuse-box-plugin-tdx",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "repository": "https://github.com/tinialabs/tdx/tree/master/packages/fuse-box-plugin-tdx",
   "keywords": [
     "mdx",
@@ -32,7 +32,7 @@
     "lint": "berun-dev lint"
   },
   "dependencies": {
-    "@tinia/tdx": "^0.3.2"
+    "@tinia/tdx": "^0.3.3"
   },
   "devDependencies": {
     "@berun/dev-scripts": "^2.0.18",
