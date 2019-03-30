@@ -43,7 +43,7 @@ function toJSX(
 
           case 'export':
             if (/^export default/.test(block.src)) {
-              layout = block.src.value
+              layout = block.src
                 .replace(/^export\s+default\s+/, '')
                 .replace(/;\s*$/, '')
             } else if (
@@ -127,6 +127,7 @@ function toJSX(
   ${options.skipExport ? 'const TDXContent =' : 'export default'} (props) => {
   const layout = ${ layout || 'null'}
   const env = useEnv ? useEnv() : {}
+  const layoutProps = { ${exportNames.join(',\n')} };
 
   return <Md 
         name="wrapper"
