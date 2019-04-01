@@ -130,7 +130,7 @@ function toJSX(
   const layoutProps = { ${exportNames.join(',\n')} };
 
   return <Md 
-        name="wrapper"
+        name="wrapper" props={{id: "tdx"}}
   ${layout
       ? `Layout={layout} layoutProps={Object.assign({}, layoutProps, props)}`
       : ''
