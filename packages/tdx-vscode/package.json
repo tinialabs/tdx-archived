@@ -82,5 +82,6 @@
   "icon": "images/icon.png",
   "license": "MIT",
   "publisher": "tinialabs",
-  "repository": "tinialabs/notebook.git"
+  "repository": "tinialabs/notebook.git",
+  "gitHead": "4cdd7153dacaacf7ec5495e0a5c8d1b87ed0add7"
 }
