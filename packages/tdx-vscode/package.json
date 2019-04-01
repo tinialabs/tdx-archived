@@ -1,7 +1,7 @@
 {
   "name": "tdx",
   "description": "Provides syntax highlighting and bracket matching for TDX (Tinia Notebooks) files.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "categories": [
     "Programming Languages"
   ],
