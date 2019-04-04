@@ -31,8 +31,8 @@
     "test:watch": "berun-dev test -o --watch",
     "lint": "berun-dev lint"
   },
-  "dependencies": {
-    "@tinia/tdx": "^0.3.4"
+  "peerDependencies": {
+    "@tinia/tdx": "^0.3.5"
   },
   "devDependencies": {
     "@berun/dev-scripts": "^2.0.18",
