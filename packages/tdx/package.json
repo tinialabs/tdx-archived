@@ -1,7 +1,7 @@
 {
   "name": "@tinia/tdx",
   "description": "Parse TDX and transpile to React, BeStatic, or Tinia Notebooks runtime format",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "repository": "https://github.com/tinialabs/tdx/tree/master/packages/tdx",
   "publishConfig": {
     "access": "public",
@@ -42,5 +42,5 @@
     "test:watch": "berun-dev test -o --watch",
     "lint": "berun-dev lint"
   },
-  "gitHead": "4cdd7153dacaacf7ec5495e0a5c8d1b87ed0add7"
+  "gitHead": "adebf9e2b5db54fba51e20a64ff88e75f60cb7ea"
 }

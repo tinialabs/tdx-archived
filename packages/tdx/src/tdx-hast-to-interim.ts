@@ -206,7 +206,13 @@ function toInterim(
     }
   }
 
-  throw new Error('Unrecognized node type')
+  if (node.type === 'yaml') {
+    return node
+  }
+
+  console.log(node)
+
+  throw new Error('Unrecognized node type ' + node.type)
 }
 
 function tdxToJSX(

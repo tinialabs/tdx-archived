@@ -1,6 +1,6 @@
 import { default as tdxDefault, tdxSync as tdxSyncDefault } from './tdx'
 
-export default function tdx(src: string, options = { singleBlock: false }) {
+export default function tdx(src: string, options: any = { singleBlock: false }) {
   return tdxDefault(
     src,
     Object.assign(
@@ -19,7 +19,7 @@ export default function tdx(src: string, options = { singleBlock: false }) {
   )
 }
 
-export function tdxSync(src, options = { singleBlock: false }) {
+export function tdxSync(src, options: any = { singleBlock: false }) {
   return tdxSyncDefault(
     src,
     Object.assign(
