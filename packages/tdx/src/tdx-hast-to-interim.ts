@@ -126,10 +126,10 @@ function toInterim(
       return {
         type: 'md',
         tagName: node.tagName,
-        src: contents.substr(
+        src: node.position ? contents.substr(
           node.position.start.offset,
           node.position.end.offset - node.position.start.offset
-        ),
+        ): '',
         value: tdxToJSX(node, parentNode, options, index)
       }
     }
