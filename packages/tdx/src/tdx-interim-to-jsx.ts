@@ -94,6 +94,7 @@ function toJSX(
           case 'md':
           case 'code':
           case 'jsx':
+          case 'html':
           case 'comment':
           default:
             return null
@@ -109,6 +110,7 @@ function toJSX(
             return `<Md name="pre"><Md name="code" props={{ className: 'language-${block.language}'}}>${block.src}</Md></Md>`
 
           case 'jsx':
+          case 'html':
             return block.src
 
           case 'import':
