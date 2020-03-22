@@ -2,11 +2,9 @@ import { object as toStyleObject } from 'to-style'
 import { paramCase } from 'change-case'
 
 export default function tdxHastToInterim(this: any, options = { singleBlock: false }) {
-
   this.Compiler = (tree, { contents }) => {
     return toInterim(tree, {}, options, contents, -1)
   } 
-
 }
 
 function toInterim(
